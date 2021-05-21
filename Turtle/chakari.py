@@ -1,0 +1,18 @@
+import turtle as tur
+tur.speed(0)
+tur.bgcolor("#fec0e6")
+for i in range(4):
+    tur.color("#e00000")
+    tur.begin_fill()
+    tur.right(90)
+    tur.circle(-100,180)
+    tur.penup()
+    tur.fd(10)
+    tur.pendown()
+    tur.circle(-100,-180)
+    tur.end_fill()
+tur.up()
+tur.goto(0,-270)
+tur.down()
+tur.write("CHAKARI",font=("algerian",30))
+tur.mainloop()
